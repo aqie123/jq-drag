@@ -1,0 +1,148 @@
+
+
+.illusion{
+	width:590px;
+	height: 350px;
+	border:1px solid;
+}
+.illusion ul{
+	width: 522px;
+	height: 300px;
+	border:1px solid green;
+	margin:25px auto;
+}
+.illusion ul li{
+	width: 160px;
+	height: 140px;
+	float:left;
+	list-style: none;
+	border:1px solid #F6810A;
+	margin:4px 6px;
+	position: relative;
+	overflow: hidden;
+}
+.illusion li .info{  /*有空格*/
+	width: 160px;
+	height: 13px;
+	background: rgba(0,50,50,0.5);
+	position: absolute;
+	bottom:0px;
+	left:0px;
+	color:#fff;
+	font-size: 8px;
+	font-family: sans-serif;
+}
+.illusion li .info h4{
+   text-align: center;
+}
+.illusion li .info p{
+	text-indent:2em;
+}
+
+
+.illusion2{        /*边框特效二css*/
+	width:590px;
+	height: 350px;
+	border:1px solid;
+}
+.illusion2 ul{
+	width: 522px;
+	height: 300px;
+	border:1px solid green;
+	margin:25px auto;
+}
+.illusion2 ul li{
+	width: 160px;
+	height: 140px;
+	float:left;
+	list-style: none;
+	border:1px solid #05FB0F;
+	margin:4px 6px;
+	position: relative;
+	overflow: hidden;
+}
+.illusion2 ul li p{
+	position: absolute;
+	bottom:-40px;
+	left:0px;
+	width:160px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	height:40px;
+	text-align: center;
+	line-height: 40px;
+	font-family: '微软雅黑';
+	font-weight: bold;
+
+}
+.illusion2 ul li .topill{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 0px;
+	height: 3px;
+	background: #F6810A;
+}
+.illusion2 ul li .bottomill{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 0px;
+	height: 3px;
+	background: #F6810A;
+}
+.illusion2 ul li .leftill{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 3px;
+	height: 0px;
+	background: #F6810A;
+}
+.illusion2 ul li .rightill{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 3px;
+	height: 0px;
+	background: #F6810A;
+}
+/*拖拽特效*/
+.moon{
+	width:590px;
+	height: 350px;
+	border:1px solid;
+	
+    margin:0px auto;
+}
+.moon ul{
+	width: 522px;
+	height: 300px;
+	border:1px solid green;
+	margin:25px auto;
+	padding:0;
+	
+   
+}
+.moon ul li{
+	list-style:none;
+	width:172px;
+	height:98px;
+	float:left;
+	margin:0px;
+	border:1px dashed #1235F4;
+  
+}
+.moon ul li .item{
+	width:172px;
+	height:98px;
+	cursor:pointer;
+	background: #ccc;
+}
+.moon ul li .item img{
+	width:172px;
+	height:98px;
+    border-radius: 6px;
+}
+
+
