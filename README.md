@@ -3,4 +3,6 @@
 git clone git@github.com:aqie123/canvas
 git add README.md
 git commit -m 'a'
+git push origin master
+
 
